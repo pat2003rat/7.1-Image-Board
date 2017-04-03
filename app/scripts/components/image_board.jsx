@@ -25,7 +25,6 @@ var ImageBoardContainer = React.createClass({
     this.setState({showForm: !this.state.showForm});
   },
   addImage: function(image){
-    console.log('image', image);
     // adds image to server
     var image = new Image(image);
     image.save();
@@ -45,7 +44,6 @@ var ImageBoardContainer = React.createClass({
   },
   deleteImage: function(e, image) {
     e.preventDefault();
-    console.log('image', image);
     // removes image from server
     image.destroy();
 
