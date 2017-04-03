@@ -5,7 +5,7 @@ var MainContainer = React.createClass({
     alert('hello');
   },
   render: function(){
-    var label = "Don't click me!";
+    var label = "Don't click this!";
 
     return (
       <div>
